@@ -25,9 +25,14 @@
         rounded_corner_radius to more accurately provide a "radius" for the rounded corner. -->
     <dimen name="rounded_corner_radius_adjustment">55px</dimen>
 
-    <!-- Height of the status bar -->
-    <dimen name="status_bar_height_portrait">92px</dimen>
-    <dimen name="status_bar_height_landscape">24dp</dimen>
+    <!-- The default height of the status bar used in {@link SystemBarUtils#getStatusBarHeight} to
+         calculate the status bar height. -->
+    <dimen name="status_bar_height_default">110px</dimen>
+
+    <!-- Height of the status bar in portrait.
+         Do not read this dimen directly. Use {@link SystemBarUtils#getStatusBarHeight} instead.
+         -->
+    <dimen name="status_bar_height_portrait">@dimen/status_bar_height_default</dimen>
 
     <!-- for 18dp of padding at 2.75px/dp at default density -->
     <dimen name="rounded_corner_content_padding">43.25px</dimen>
