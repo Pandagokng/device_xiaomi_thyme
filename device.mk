@@ -14,7 +14,7 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 $(call inherit-product, vendor/xiaomi/thyme/thyme-vendor.mk)
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2400
+TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
 
 THYME_PREBUILT := device/xiaomi/thyme-prebuilt
